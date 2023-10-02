@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/423584c6ee.js" crossorigin="anonymous"></script>
+    <!-- Font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>About Mirick</title>
+</head>
+
+<body class="home-body">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="sidenav-trigger" data-target="mobile-demo"><i
+                        class="fa-solid fa-bars button-icon"></i></a>
+                <div class="container"><a href="" class="brand-logo">Mirick<i
+                            class="fa-regular fa-folder-closed"></i></a></div>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax"><img class="parallax-img" src="imgs/dbm-parallax.jpg" alt=""></div>
+        <br>
+        <img src="imgs/me.jpg" class="circle responsive-img myPicture" id="home" alt="Mirick's3 center Picture">
+        <h3 class="center white-text">Mirick Argañosa</h3>
+        <h5 class="center white-text">Web Designer</h5>
+    </div>
+
+
+
+    <div class="section container">
+        <br><br><br>
+        <!-- About -->
+        <h5 id="about" class="center"><b>About</b>
+        </h5>
+        <div class="row">
+            <div class="col m12 l6">
+                <h5 class="center">Hobbies</h5>
+                <p class="center">
+                    Mirick Argañosa is not only a dedicated web developer but also a diverse individual with a wide
+                    range of interests. He enjoys playing musical instruments, watching movies, programming, and
+                    engaging in online buy and sell activities during his free time. He maintains a healthy lifestyle
+                    through regular workouts. Additionally, he's an online gamer. Mirick's portfolio reflects his
+                    passion for both work and leisure
+                    activities.</p>
+            </div>
+            <div class="col m12 l6">
+                <h5 class="center">Highest Educational attainment</h5>
+                <table class="striped centered">
+                    <thead>
+                        <th class=>Year</th>
+                        <th class=>Program</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Third Year</td>
+                            <td>Bachelor of Science in Information Technology</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+
+        <!-- More infos-->
+        <h5 class="center">More informations about Mirick</h5>
+        <br>
+        <p><b>Address:</b> Calamba, Laguna</p>
+        <p><b>Email:</b> arganosamirick051@gmail.com</p>
+        <p><b>Phone Number:</b> 09074627872</p>
+        <hr>
+        <p><b>Objectives:</b></p>
+        <p class="center">
+            "I want to build user-friendly websites using my web development skills. I'm eager to contribute to exciting
+            projects and deliver great results through innovation and learning."
+        </p>
+
+
+
+
+        <!-- Certs -->
+        <br><br>
+        <h5 class="center"><b>Certification/s</b></h5>
+        <div class="container">
+            <img src="imgs/rwd-cert.png" class="responsive-img" alt="">
+        </div>
+        <br>
+
+
+    </div>
+    <!-- Sidenav Content -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col s6"></div>
+            <div class="col s6">
+                <h5>Contact:</h5>
+                <a href="" class="contact-icon button-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="contact-icon button-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="contact-icon button-icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="" class="contact-icon button-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <p class="center">&copy; 2023 Mirick Argañosa</p>
+    </footer>
+
+
+
+
+
+
+    <!-- JQuery CDS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Declaration -->
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+
+    </script>
+</body>
+
+</html>

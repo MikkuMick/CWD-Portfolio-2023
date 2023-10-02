@@ -1,0 +1,53 @@
+nav {
+    /* Forest Green Background */
+    background-color: #2d545e;
+}
+
+.brand-logo {
+    font-weight: 100;
+}
+
+.myPicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.home-body {
+    background-image: linear-gradient(white, #e1b382);
+}
+
+footer {
+    background-color: #2d545e;
+    color: white;
+    padding: 10px 0;
+}
+
+.contact-icon {
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 200;
+}
+
+.button-icon:hover {
+    color: cadetblue;
+}
+
+.button-icon:active {
+    color: dimgray;
+}

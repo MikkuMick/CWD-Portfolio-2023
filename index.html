@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/423584c6ee.js" crossorigin="anonymous"></script>
+    <!-- Font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Materialize Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Mirick's Portfolio</title>
+</head>
+
+<body class="home-body">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="sidenav-trigger" data-target="mobile-demo"><i class="fa-solid fa-bars button-icon"></i></a>
+                <div class="container"><a href="#" class="brand-logo">Mirick<i
+                            class="fa-regular fa-folder-closed"></i></a></div>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img class="parallax-img" src="imgs/dbm-parallax.jpg" alt=""></div>
+        <br>
+        <img src="imgs/me.jpg" class="circle responsive-img myPicture" id="home" alt="Mirick's3 center Picture">
+        <h3 class="center white-text">Mirick Argañosa</h3>
+        <h5 class="center white-text">Web Designer</h5>
+    </div>
+
+    <div class="container">
+        <br><br>
+        <!-- Portfolio -->
+        <h4 id="portfolio" class="center portfolio-txt">Portfolio</h4>
+        <div class="carousel center">
+            <a class="carousel-item" href="CWD-Activities-2023/colors-typography.html" target="_blank">
+                <img src="imgs/typography-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/table-media.html" target="_blank">
+                <img src="imgs/table-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/buttons.html" target="_blank">
+                <img src="imgs/buttons-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/grid.html" target="_blank">
+                <img src="imgs/gridsys-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/table-media.html" target="_blank">
+                <img src="imgs/media-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/navbar-sidenav.html" target="_blank">
+                <img src="imgs/navbar-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+            <a class="carousel-item" href="CWD-Activities-2023/navbar-sidenav.html" target="_blank">
+                <img src="imgs/sidenav-cover.png" class="crl-img" style="height: 300px; width: 200px;" alt="">
+            </a>
+        </div>
+        <br><br>
+
+
+    </div>
+    <!-- Sidenav Content -->
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <div class="user-view">
+                <div class="background" style="background-color: #2d545e;">
+                </div>
+                <a href="#user"><img class="circle" src="imgs/me.jpg"></a>
+                <a href="#name"><span class="white-text name">Mirick Argañosa</span></a>
+                <a href="#email"><span class="white-text email">arganosamirick051@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+
+    <div style="height: 300px;"></div>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col s6"></div>
+            <div class="col s6">
+                <h5>Contact:</h5>
+                <a href="https://www.instagram.com/mrckmntmr/" target="_blank" class="contact-icon button-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/mick.arganosa" target="_blank" class="contact-icon button-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://github.com/MikkuMick" target="_blank" class="contact-icon button-icon">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arga%C3%B1osa-mirick-m-484a49285/" target="_blank" class="contact-icon button-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <p class="center">&copy; 2023 Mirick Argañosa</p>
+    </footer>
+
+
+
+
+
+
+    <!-- JQuery CDS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Declaration -->
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+
+    </script>
+</body>
+
+</html>
